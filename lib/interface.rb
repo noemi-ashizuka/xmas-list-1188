@@ -54,6 +54,7 @@ def display_list(gift_list)
   end 
 end
 
+# Loads my gifts from the gift.csv file
 # should return a hash with my gifts
 def load_csv
   filepath    = 'gifts.csv'
@@ -69,6 +70,7 @@ def load_csv
   gift_list
 end
 
+# Saves my ruby memory gift_list into the csv file to persist the data
 def save_csv(gift_list)
   filepath    = 'gifts.csv'
 
